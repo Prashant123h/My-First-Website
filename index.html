@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: ;
+    }
+    #heading{
+         border: 2px solid lightblue;
+         display: inline;
+         width: 130px;
+         padding: 7px;
+         text-align: center;
+         border-radius: 20px;
+         background-color: lightseagreen;
+         color: rgb(6, 65, 65);
+         cursor: pointer;
+        
+         
+    }
+    #home{
+        color: rgb(255, 255, 255);
+        background-color: lightblue;
+         border: 2px solid lightblue;
+         display: block;
+         width: px;
+         padding: 7px;
+         text-align: center;
+         border-radius: 20px;
+         background-color: lightblue;
+         color: rgb(6, 65, 65);
+         cursor: pointer;
+         display: block;
+         
+         
+    }
+    #project_img{
+        width: 450px;
+        height: auto;
+        border: 3px solid rgb(31, 1, 39);
+        margin-left: 80px;
+    }
+</style>
+<body>
+    <header align="center" style="background: #333; color: #fff; padding: 20px;">
+        <h1>My Portfolio</h1>
+    </header>
+    <!-- header of  page like home index  -->
+     <nav>
+        <a id="home" href="index.html">Home</a>
+    </nav>
+    
+    <!-- About Me Section -->
+    <section style="padding: 20px;">
+        <h2 id="heading">About Me</h2><BR></BR>
+        <div style="display: flex; align-items: center;">
+            <!-- Optional photo -->
+            <img src="https://clipground.com/images/naruto-png-icon-2.png" alt="Profile Photo" width="120" height="120" style="border-radius: 50%; margin-right: 20px;">
+            <div>
+                <i class="fa-solid fa-user-secret" style="margin-right: 10px;"></i>
+                <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and more. Welcome to my portfolio!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section style="padding: 20px;">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+    
+    <!-- Projects Section -->
+    <section style="padding: 20px;">
+        <h2>Projects</h2>
+        <div>
+            <img id="project_img" width="500px" src="https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-thumb.jpg" alt="Project 1" width="100%" height="auto">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officia consectetur inventore quod ratione dicta, molestiae eligendi quo necessitatibus rerum reprehenderit similique facere reiciendis quibusdam corrupti laudantium! Neque quidem, exercitationem iure dolor, aliquam ullam quo tempore fugit eaque pariatur explicabo deserunt distinctio, corporis sint laborum?</p>
+        </div>
+        <div><br>
+            <img id="project_img" src="https://c4.wallpaperflare.com/wallpaper/448/174/357/neon-4k-hd-best-for-desktop-wallpaper-thumb.jpg" alt="Project 2" width="100%" height="auto"><br>
+            <h3>Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iste temporibus unde deleniti, voluptatibus natus dolores adipisci repudiandae, at eos doloribus veniam harum veritatis ullam laborum voluptate iure aspernatur asperiores reiciendis quam! Modi odio, qui quis voluptatem reiciendis autem sint.</p>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section style="padding: 20px;">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px;">
+            <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px;">
+            <textarea name="message" placeholder="Your Message" rows="5" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+            <button type="submit" style="padding: 10px 20px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer align="center" style="background: #333; color: #fff; padding: 10px;">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
